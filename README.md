@@ -1,5 +1,6 @@
 📩 Spam SMS Classification using Machine Learning
-📌 Project Overview
+
+<b>📌 Project Overview</b>
 
 This project focuses on building an end-to-end Spam SMS Classification system using classical Machine Learning and Natural Language Processing (NLP) techniques.
 
