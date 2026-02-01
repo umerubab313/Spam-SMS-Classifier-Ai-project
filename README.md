@@ -8,7 +8,7 @@ The goal is to automatically classify SMS messages as Spam or Ham (Not Spam) by 
 
 Rather than relying on a single model, multiple ML algorithms were trained and evaluated to understand their strengths and weaknesses on text-based data.
 
-🧠 Key Concepts Covered
+<b>🧠 Key Concepts Covered</b>
 
 Exploratory Data Analysis (EDA)
 
@@ -20,7 +20,7 @@ Training and evaluation of multiple ML models
 
 Performance comparison and error analysis
 
-🗂 Dataset
+<b>🗂 Dataset</b>
 
 Type: SMS text messages
 
@@ -28,7 +28,7 @@ Labels: spam, ham
 
 The dataset contains real-world SMS messages with class imbalance, making it suitable for evaluating precision and recall.
 
-🔍 Exploratory Data Analysis (EDA)
+<b>🔍 Exploratory Data Analysis (EDA)</b>
 
 Performed detailed analysis to understand:
 
@@ -42,7 +42,7 @@ Common keywords used in spam messages
 
 Visualizations were used to identify trends and biases in the data before modeling.
 
-🧹 Text Preprocessing
+<b>🧹 Text Preprocessing</b>
 
 The raw SMS data was cleaned and normalized using the following steps:
 
@@ -58,7 +58,7 @@ Stemming / Lemmatization (where applicable)
 
 This step ensured that the model learns from meaningful textual patterns rather than noise.
 
-🧠 Feature Engineering
+<b>🧠 Feature Engineering</b>
 
 Text data was converted into numerical form using:
 
@@ -68,7 +68,7 @@ TF-IDF Vectorization
 
 These techniques helped capture the importance of words while reducing the impact of frequently occurring but less informative terms.
 
-🤖 Machine Learning Models Used
+<b>🤖 Machine Learning Models Used</b>
 
 The following models were trained and evaluated:
 
@@ -82,7 +82,7 @@ Random Forest (if applicable)
 
 Each model was compared using consistent evaluation metrics to ensure fair analysis.
 
-📊 Model Evaluation
+<b>📊 Model Evaluation</b>
 
 Models were evaluated using:
 
@@ -98,7 +98,7 @@ Confusion Matrix
 
 Special attention was given to false positives and false negatives, as misclassifying spam can have real-world consequences.
 
-🏆 Results & Insights
+<b>🏆 Results & Insights</b>
 
 Simpler probabilistic models like Naive Bayes performed very well due to the nature of text data.
 
@@ -108,7 +108,7 @@ Precision was prioritized to reduce false spam detection.
 
 Model comparison helped identify trade-offs between accuracy and interpretability.
 
-🛠 Technologies Used
+<b>🛠 Technologies Used</b>
 
 Python
 
@@ -122,29 +122,11 @@ scikit-learn
 
 NLTK
 
-📁 Project Structure
-├── spam-detection.ipynb
-├── dataset/
-│   └── spam.csv
-├── README.md
-
-🚀 How to Run the Project
-
-Clone the repository:
-
-git clone <repo-link>
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open the notebook:
+<b>Open the notebook:</b>
 
 jupyter notebook spam-detection.ipynb
 
-🎯 What I Learned
+<b>🎯 What I Learned</b>
 
 How to build a complete ML pipeline for text classification
 
@@ -156,7 +138,7 @@ How to properly evaluate and compare models
 
 How to analyze errors instead of relying only on accuracy
 
-📌 Future Improvements
+<b>📌 Future Improvements</b>
 
 Use n-gram based feature extraction
 
@@ -166,7 +148,7 @@ Deploy as a web application
 
 Extend the model to email spam detection
 
-🧑‍💻 Author
+<b>🧑‍💻 Author<b/>
 
 Ume Rubab
 Bachelor’s in Computer Science
